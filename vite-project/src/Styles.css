@@ -1,0 +1,77 @@
+.app-wrapper {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    padding: 2rem;
+    flex-wrap: wrap;
+    background-color: #484399;
+    font-family: Arial, sans-serif;
+  }
+  
+  .bloque {
+    flex: 1;
+    min-width: 300px;
+    padding: 1rem;
+    border: 2px solid #040489;
+    border-radius: 10px;
+    background-color: #1A0D5C;
+    box-shadow: 0 2px 6px rgba(143, 77, 77, 0.1);
+  }
+  
+  .bloque h2 {
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  .bloque input,
+  .bloque select,
+  .bloque textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 0.8rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  .bloque button {
+    background-color: #0077aa;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .bloque button:hover {
+    background-color: #005f88;
+  }
+  
+  .bloque ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .bloque li {
+    margin-bottom: 0.5rem;
+    background-color: #000000;
+    padding: 0.5rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bloque li button {
+    background: none;
+    border: none;
+    color: #72EEE9;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 60px;
+  }
+  
