@@ -2,7 +2,7 @@ import React from "react";
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
 import CentroAtencionForm from "./components/CentroAtencionForm";
-//import CineQueue from "./components/CineQueue"; // <- Agregá esto
+//import CineQueue from "./components/CineQueue";
 import "./Styles.css";
 
 export default function App() {
